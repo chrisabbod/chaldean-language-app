@@ -1,0 +1,89 @@
+{
+    "preliminary_notes": {
+        "Zqapa": "ā",
+        "Pthaha": "a"
+    },
+    "examples": [
+        {
+            "word": "āna",
+            "translation": "I"
+        },
+        {
+            "word": "bāba",
+            "translation": "father"
+        }
+    ],
+    "lessons": [
+        {
+            "lesson_number": 1,
+            "lesson_title": "Personal pronouns and a basic verb conjugation",
+            "pronouns": {
+                "singular": [
+                    {
+                        "pronoun": "āna",
+                        "translation": "I"
+                    },
+                    {
+                        "pronoun": "āyit",
+                        "translation": "You (masc.)"
+                    },
+                    {
+                        "pronoun": "āyat",
+                        "translation": "You (fem.)"
+                    },
+                    {
+                        "pronoun": "āwo",
+                        "translation": "He"
+                    },
+                    {
+                        "pronoun": "āya",
+                        "translation": "She"
+                    }
+                ],
+                "plural": [
+                    {
+                        "pronoun": "akhny",
+                        "translation": "We"
+                    },
+                    {
+                        "pronoun": "akhto",
+                        "translation": "You (plural)"
+                    },
+                    {
+                        "pronoun": "anay",
+                        "translation": "They"
+                    }
+                ]
+            },
+            "verbs": [
+                {
+                    "verb_root": "hwa",
+                    "verb_tense": "PRESENT",
+                    "conjugations": [
+                        {
+                            "pronoun": "āna",
+                            "conjugation": "ee-win",
+                            "translation": "I (masc.) am"
+                        },
+                        {
+                            "pronoun": "āyit",
+                            "conjugation": "ee-wit",
+                            "translation": "You (m) are"
+                        }
+                    ]
+                }
+            ],
+            "vocabulary": [
+                {
+                    "word": "Talmeedha",
+                    "translation": "Student",
+                    "notes": "The dh is pronounced with the same noise as the 'th' in the word 'the'"
+                },
+                {
+                    "word": "Malpāna",
+                    "translation": "Teacher"
+                }
+            ]
+        }
+    ]
+}
