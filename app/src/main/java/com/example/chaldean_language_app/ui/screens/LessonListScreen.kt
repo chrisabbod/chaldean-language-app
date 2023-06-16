@@ -6,10 +6,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.example.chaldean_language_app.ui.components.LessonTitle
-import com.example.chaldean_language_app.ui.components.PronounsSection
-import com.example.chaldean_language_app.ui.components.VerbsSection
-import com.example.chaldean_language_app.ui.components.VocabularySection
+import com.example.chaldean_language_app.ui.components.*
 
 @Composable
 fun LessonListScreen(lessonData: LessonData) {
@@ -19,8 +16,15 @@ fun LessonListScreen(lessonData: LessonData) {
             .background(Color.White)
     ) {
         item {
-            LessonTitle(title = "Lesson ${lessonData.lessons[0].lesson_number}: "
-                    + lessonData.lessons[0].lesson_title)
+            LessonTitle(
+                title = "Lesson ${lessonData.lessons[0].lesson_number}: "
+                        + lessonData.lessons[0].lesson_title
+            )
+        }
+        item {
+            PreliminaryNotesSection(
+                notes = lessonData.lessons[0].preliminary_notes
+            )
         }
         lessonData.lessons[0].lesson_contents.forEach { lessonContent ->
             lessonContent.pronouns?.let {
