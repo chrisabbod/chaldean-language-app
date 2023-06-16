@@ -195,6 +195,117 @@
           ]
         }
       ]
+    },
+	{
+      "lesson_number": 2,
+      "lesson_title": "To Be (future), To Go (present)",
+      "lesson_sections": 2,
+      "preliminary_notes": "",
+      "lesson_contents": [
+        {
+          "verbs": [
+            {
+              "verb": "TO BE",
+              "verb_root": "hwa",
+              "verb_tense": "FUTURE",
+              "conjugations": [
+                {
+                  "pronoun": "āna",
+                  "conjugation": "zee-win",
+                  "translation": "I (m) will be"
+                },
+                {
+                  "pronoun": "āna",
+                  "conjugation": "zee-wan",
+                  "translation": "I (f) will be"
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "zee-wit",
+                  "translation": "You (m) will be"
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "zee-wat",
+                  "translation": "You (f) will be"
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "zee-lih",
+                  "translation": "He will be"
+                },
+                {
+                  "pronoun": "āya/āyee",
+                  "conjugation": "zee-lah",
+                  "translation": "She will be"
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "zee-wookh",
+                  "translation": "We will be"
+                },
+                {
+                  "pronoun": "akhtu(n)",
+                  "conjugation": "zee-wotu(n)",
+                  "translation": "Y'all will be"
+                },
+                {
+                  "pronoun": "anay/anee",
+                  "conjugation": "zee-lay",
+                  "translation": "They will be"
+                }
+              ]
+            },
+            {
+              "verb": "TO GO",
+              "verb_root": "izzal",
+              "verb_tense": "PRESENT",
+              "conjugations": [
+                {
+                  "pronoun": "āna",
+                  "conjugation": "k-zāl-ee",
+                  "translation": "I go"
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "k-zāl-ookh",
+                  "translation": "You (m) go"
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "k-zāl-akh",
+                  "translation": "You (f) go"
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "k-zāl-eh",
+                  "translation": "He goes"
+                },
+                {
+                  "pronoun": "āya",
+                  "conjugation": "k-zāl-ah",
+                  "translation": "She goes"
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "k-zāl-an",
+                  "translation": "We go"
+                },
+                {
+                  "pronoun": "akhtu(n)",
+                  "conjugation": "k-zāl-otu(n)",
+                  "translation": "Y'all go"
+                },
+                {
+                  "pronoun": "anay",
+                  "conjugation": "k-zāl-ay",
+                  "translation": "They go"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
