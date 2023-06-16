@@ -1,6 +1,9 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.compose_version = '1.4.0'  //Use latest version
+    ext {
+        compose_compiler = '1.4.0'
+        compose_version = '1.4.0'
+    }
     repositories {
         google()
         mavenCentral()
