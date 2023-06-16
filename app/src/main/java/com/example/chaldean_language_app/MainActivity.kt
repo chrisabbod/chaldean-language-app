@@ -14,10 +14,8 @@ class MainActivity : AppCompatActivity() {
         val jsonString = loadJSONFromAsset(this, "language_lessons.json")
         val lessonData = parseJSON(jsonString)
 
-        val firstLessonTitle = lessonData.lessons[0].lesson_title
-
         setContent {
-            LessonTitle(title = firstLessonTitle)
+            LessonScreen(lessonData)
         }
     }
 }
