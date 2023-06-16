@@ -17,71 +17,75 @@
         {
             "lesson_number": 1,
             "lesson_title": "Personal Pronouns and Basic Verb Conjugation",
-            "pronouns": {
-                "singular": [
-                    {
-                        "pronoun": "āna",
-                        "translation": "I"
-                    },
-                    {
-                        "pronoun": "āyit",
-                        "translation": "You (masc.)"
-                    },
-                    {
-                        "pronoun": "āyat",
-                        "translation": "You (fem.)"
-                    },
-                    {
-                        "pronoun": "āwo",
-                        "translation": "He"
-                    },
-                    {
-                        "pronoun": "āya",
-                        "translation": "She"
-                    }
-                ],
-                "plural": [
-                    {
-                        "pronoun": "akhny",
-                        "translation": "We"
-                    },
-                    {
-                        "pronoun": "akhto",
-                        "translation": "You (plural)"
-                    },
-                    {
-                        "pronoun": "anay",
-                        "translation": "They"
-                    }
-                ]
-            },
-            "verbs": [
+            "lesson_contents": [
                 {
-                    "verb_root": "hwa",
-                    "verb_tense": "PRESENT",
-                    "conjugations": [
+                    "pronouns": {
+                        "singular": [
+                            {
+                                "pronoun": "āna",
+                                "translation": "I"
+                            },
+                            {
+                                "pronoun": "āyit",
+                                "translation": "You (masc.)"
+                            },
+                            {
+                                "pronoun": "āyat",
+                                "translation": "You (fem.)"
+                            },
+                            {
+                                "pronoun": "āwo",
+                                "translation": "He"
+                            },
+                            {
+                                "pronoun": "āya",
+                                "translation": "She"
+                            }
+                        ],
+                        "plural": [
+                            {
+                                "pronoun": "akhny",
+                                "translation": "We"
+                            },
+                            {
+                                "pronoun": "akhto",
+                                "translation": "You (plural)"
+                            },
+                            {
+                                "pronoun": "anay",
+                                "translation": "They"
+                            }
+                        ]
+                    },
+                    "verbs": [
                         {
-                            "pronoun": "āna",
-                            "conjugation": "ee-win",
-                            "translation": "I (masc.) am"
+                            "verb_root": "hwa",
+                            "verb_tense": "PRESENT",
+                            "conjugations": [
+                                {
+                                    "pronoun": "āna",
+                                    "conjugation": "ee-win",
+                                    "translation": "I (masc.) am"
+                                },
+                                {
+                                    "pronoun": "āyit",
+                                    "conjugation": "ee-wit",
+                                    "translation": "You (m) are"
+                                }
+                            ]
+                        }
+                    ],
+                    "vocabulary": [
+                        {
+                            "word": "Talmeedha",
+                            "translation": "Student",
+                            "notes": "The dh is pronounced with the same noise as the 'th' in the word 'the'"
                         },
                         {
-                            "pronoun": "āyit",
-                            "conjugation": "ee-wit",
-                            "translation": "You (m) are"
+                            "word": "Malpāna",
+                            "translation": "Teacher"
                         }
                     ]
-                }
-            ],
-            "vocabulary": [
-                {
-                    "word": "Talmeedha",
-                    "translation": "Student",
-                    "notes": "The dh is pronounced with the same noise as the 'th' in the word 'the'"
-                },
-                {
-                    "word": "Malpāna",
-                    "translation": "Teacher"
                 }
             ]
         }

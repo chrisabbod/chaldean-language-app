@@ -13,10 +13,10 @@ Conjugation represents a verb conjugation for a specific pronoun and its transla
 Vocabulary represents a vocabulary word, its translation, and any notes associated with it.
  */
 
-data class Lesson(
+data class LanguageResource(
     val preliminary_notes: Map<String, String>,
     val examples: List<Example>,
-    val lessons: List<LessonContent>
+    val lessons: List<Lesson>
 )
 
 data class Example(
@@ -24,22 +24,22 @@ data class Example(
     val translation: String
 )
 
-data class LessonContent(
+data class Lesson(
     val lesson_number: Int,
     val lesson_title: String,
-    val pronouns: Pronouns,
+    val lesson_contents: List<LessonContent>
+)
+
+data class LessonContent(
+    val vocabulary: List<Vocabulary>,
     val verbs: List<Verb>,
-    val vocabulary: List<Vocabulary>
+    val pronouns: Pronouns
 )
 
-data class Pronouns(
-    val singular: List<Pronoun>,
-    val plural: List<Pronoun>
-)
-
-data class Pronoun(
-    val pronoun: String,
-    val translation: String
+data class Vocabulary(
+    val word: String,
+    val translation: String,
+    val notes: String? = null
 )
 
 data class Verb(
@@ -54,8 +54,14 @@ data class Conjugation(
     val translation: String
 )
 
-data class Vocabulary(
-    val word: String,
-    val translation: String,
-    val notes: String? = null
+data class Pronouns(
+    val singular: List<Pronoun>,
+    val plural: List<Pronoun>
 )
+
+data class Pronoun(
+    val pronoun: String,
+    val translation: String
+)
+
+
