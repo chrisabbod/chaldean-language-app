@@ -19,7 +19,7 @@ object Utils {
         return json
     }
 
-    fun parseJSON(jsonString: String?): LanguageResource {
-        return Gson().fromJson(jsonString, LanguageResource::class.java)
+    fun parseJSON(jsonString: String?): LessonData {
+        return Gson().fromJson(jsonString, LessonData::class.java)
     }
 }
