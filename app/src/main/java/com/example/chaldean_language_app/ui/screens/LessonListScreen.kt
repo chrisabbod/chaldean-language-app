@@ -23,9 +23,12 @@ fun LessonListScreen(lessonData: LessonData) {
             )
         }
         item {
-            PreliminaryNotesSection(
-                notes = lessonData.lessons[0].preliminary_notes
-            )
+            if (lessonData.lessons[0].preliminary_notes.isNotEmpty()) {
+                PreliminaryNotesSection(
+                    notes = lessonData.lessons[0].preliminary_notes
+                )
+            }
+
         }
         lessonData.lessons[0].lesson_contents.forEach { lessonContent ->
             lessonContent.pronouns?.let {
