@@ -8,6 +8,7 @@ data class Lesson(
     val lesson_number: Int,
     val lesson_title: String,
     val lesson_sections: Int,
+    val preliminary_notes: String,
     val lesson_contents: List<LessonContent>
 )
 
@@ -28,6 +29,7 @@ data class Pronoun(
 )
 
 data class Verb(
+    val verb: String,
     val verb_root: String,
     val verb_tense: String,
     val conjugations: List<Conjugation>

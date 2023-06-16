@@ -4,6 +4,7 @@
       "lesson_number": 1,
       "lesson_title": "Personal Pronouns and Basic Verb Conjugation",
       "lesson_sections": 4,
+      "preliminary_notes": "\"Zqapa\" vowel = ā\n\"Pthaha\" = a\n\nExample: āna (Translation: I)\nExample: bāba (Translation: father)",
       "lesson_contents": [
         {
           "pronouns": {
@@ -46,6 +47,7 @@
           },
           "verbs": [
             {
+              "verb": "TO BE",
               "verb_root": "hwa",
               "verb_tense": "PRESENT",
               "conjugations": [
@@ -58,6 +60,93 @@
                   "pronoun": "āyit",
                   "conjugation": "ee-wit",
                   "translation": "You (m) are"
+                },
+                {
+                  "pronoun": "āna",
+                  "conjugation": "ee-wan",
+                  "translation": "I (fem) am"
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "ee-wat",
+                  "translation": "You (f) are"
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "ee-lih",
+                  "translation": "He is"
+                },
+                {
+                  "pronoun": "āya",
+                  "conjugation": "ee-lah",
+                  "translation": "She is"
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "ee-wookh",
+                  "translation": "We are"
+                },
+                {
+                  "pronoun": "akhto(n)",
+                  "conjugation": "ee-wotoon",
+                  "translation": "Y'all are"
+                },
+                {
+                  "pronoun": "anay",
+                  "conjugation": "ee-lay",
+                  "translation": "They are"
+                }
+              ]
+            },
+            {
+              "verb": "TO BE",
+              "verb_root": "hwa",
+              "verb_tense": "PAST",
+              "conjugations": [
+                {
+                  "pronoun": "āna",
+                  "conjugation": "win-wa",
+                  "translation": "I (masc.) was"
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "wit-wa",
+                  "translation": "You (m) were"
+                },
+                {
+                  "pronoun": "āna",
+                  "conjugation": "wan-wa",
+                  "translation": "I (fem) was"
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "wet-wa",
+                  "translation": "You (f) were"
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "wae-wa",
+                  "translation": "He was"
+                },
+                {
+                  "pronoun": "āya",
+                  "conjugation": "wa-wa",
+                  "translation": "She was"
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "wookh-wa",
+                  "translation": "We were"
+                },
+                {
+                  "pronoun": "akhto(n)",
+                  "conjugation": "wot-wa or wotoon-wa",
+                  "translation": "Y'all were"
+                },
+                {
+                  "pronoun": "anay or anee",
+                  "conjugation": "wa-wae",
+                  "translation": "They were"
                 }
               ]
             }
@@ -71,6 +160,36 @@
             {
               "word": "Malpāna",
               "translation": "Teacher",
+              "notes": null
+            },
+            {
+              "word": "Madrasa",
+              "translation": "School",
+              "notes": null
+            },
+            {
+              "word": "Dariss",
+              "translation": "Lesson",
+              "notes": null
+            },
+            {
+              "word": "kthāwa",
+              "translation": "Book",
+              "notes": null
+            },
+            {
+              "word": "qalāma",
+              "translation": "Pencil",
+              "notes": null
+            },
+            {
+              "word": "koorsey",
+              "translation": "Chair",
+              "notes": null
+            },
+            {
+              "word": "warāqa",
+              "translation": "Paper",
               "notes": null
             }
           ]
