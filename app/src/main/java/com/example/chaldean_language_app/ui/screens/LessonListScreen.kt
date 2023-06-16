@@ -1,4 +1,4 @@
-package com.example.chaldean_language_app
+package com.example.chaldean_language_app.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
@@ -6,6 +6,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.chaldean_language_app.LessonData
 import com.example.chaldean_language_app.ui.components.*
 
 @Composable

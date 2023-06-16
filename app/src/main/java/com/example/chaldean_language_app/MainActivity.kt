@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import com.example.chaldean_language_app.data.utils.Utils.loadJSONFromAsset
 import com.example.chaldean_language_app.data.utils.Utils.parseJSON
+import com.example.chaldean_language_app.ui.screens.LessonListScreen
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
