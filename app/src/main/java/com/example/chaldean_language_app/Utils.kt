@@ -8,7 +8,7 @@ import java.io.InputStream
 object Utils {
 
     fun loadJSONFromAsset(context: Context, fileName: String): String? {
-        var json: String? = null
+        val json: String?
         try {
             val inputStream: InputStream = context.assets.open(fileName)
             json = inputStream.bufferedReader().use { it.readText() }
@@ -19,7 +19,7 @@ object Utils {
         return json
     }
 
-    fun parseJSON(jsonString: String?): Lesson {
-        return Gson().fromJson(jsonString, Lesson::class.java)
+    fun parseJSON(jsonString: String?): LanguageResource {
+        return Gson().fromJson(jsonString, LanguageResource::class.java)
     }
 }
