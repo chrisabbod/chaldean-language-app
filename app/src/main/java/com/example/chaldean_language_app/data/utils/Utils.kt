@@ -1,6 +1,7 @@
-package com.example.chaldean_language_app
+package com.example.chaldean_language_app.data.utils
 
 import android.content.Context
+import com.example.chaldean_language_app.LessonData
 import com.google.gson.Gson
 import java.io.IOException
 import java.io.InputStream

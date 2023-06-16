@@ -1,59 +1,28 @@
-package com.example.chaldean_language_app
+package com.example.chaldean_language_app.ui.components
 
-import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.pager.HorizontalPager
-import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-
-@OptIn(ExperimentalFoundationApi::class)
-@Composable
-fun LessonScreen(lessonData: LessonData) {
-    val pagerState = rememberPagerState()
-    HorizontalPager(
-        pageCount = lessonData.lessons[0].lesson_sections,
-        state = pagerState
-    ) { pageIndex ->
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(Color.White),
-            contentAlignment = Alignment.Center
-        ) {
-//            LessonTitle(title = lessonData.lessons[0].lesson_title)
-            when (pageIndex) {
-                0 -> LessonTitle(title = lessonData.lessons[0].lesson_title)
-                1 -> PronounsSection(pronounSection = lessonData.lessons[0].lesson_contents[0].pronouns)
-                2 -> VerbsSection(verbs = lessonData.lessons[0].lesson_contents[0].verbs)
-                3 -> VocabularySection(vocabulary = lessonData.lessons[0].lesson_contents[0].vocabulary)
-            }
-        }
-    }
-}
+import com.example.chaldean_language_app.PronounSection
+import com.example.chaldean_language_app.Verb
+import com.example.chaldean_language_app.Vocabulary
 
 @Composable
 fun LessonTitle(title: String) {
     Column(
         modifier = Modifier
-            .padding(8.dp),
+            .padding(16.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
             text = title,
-            color = Color.Black,
-            fontSize = 16.sp,
-            fontWeight = FontWeight.Bold
+            style = MaterialTheme.typography.h5
         )
     }
 }
