@@ -117,7 +117,7 @@ fun VocabularySection(vocabulary: List<Vocabulary>?) {
             Text(text = "Notes: ${vocabulary[0].notes}")
             Spacer(modifier = Modifier.height(4.dp))
             it.forEach { word ->
-                Text(text = "${word.translation} - Translation: ${word.word}",)
+                Text(text = "${word.translation}: ${word.word}",)
             }
         }
     }
