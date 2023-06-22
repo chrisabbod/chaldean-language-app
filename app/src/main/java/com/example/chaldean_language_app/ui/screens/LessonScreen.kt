@@ -6,11 +6,11 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.example.chaldean_language_app.data.model.LessonData
+import com.example.chaldean_language_app.data.model.Lesson
 import com.example.chaldean_language_app.ui.components.*
 
 @Composable
-fun LessonScreen(lessonData: LessonData) {
+fun LessonScreen(lesson: Lesson) {
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
@@ -18,19 +18,19 @@ fun LessonScreen(lessonData: LessonData) {
     ) {
         item {
             LessonTitle(
-                title = "Lesson ${lessonData.lessons[0].lesson_number}: "
-                        + lessonData.lessons[0].lesson_title
+                title = "Lesson ${lesson.lesson_number}: "
+                        + lesson.lesson_title
             )
         }
         item {
-            if (lessonData.lessons[0].preliminary_notes.isNotEmpty()) {
+            if (lesson.preliminary_notes.isNotEmpty()) {
                 PreliminaryNotesSection(
-                    notes = lessonData.lessons[0].preliminary_notes
+                    notes = lesson.preliminary_notes
                 )
             }
 
         }
-        lessonData.lessons[0].lesson_contents.forEach { lessonContent ->
+        lesson.lesson_contents.forEach { lessonContent ->
             lessonContent.pronouns?.let {
                 item { PronounsSection(it) }
             }
@@ -52,4 +52,3 @@ fun LessonScreen(lessonData: LessonData) {
         }
     }
 }
-
