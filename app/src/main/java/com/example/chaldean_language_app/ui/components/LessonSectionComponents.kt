@@ -10,9 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.chaldean_language_app.PronounSection
-import com.example.chaldean_language_app.Verb
-import com.example.chaldean_language_app.Vocabulary
+import com.example.chaldean_language_app.*
 
 @Composable
 fun LessonTitle(title: String) {
@@ -117,7 +115,92 @@ fun VocabularySection(vocabulary: List<Vocabulary>?) {
             Text(text = "Notes: ${vocabulary[0].notes}")
             Spacer(modifier = Modifier.height(4.dp))
             it.forEach { word ->
-                Text(text = "${word.translation}: ${word.word}",)
+                Text(text = "${word.translation}: ${word.word}")
+            }
+        }
+    }
+    Divider(color = Color.Gray, thickness = 0.5.dp)
+}
+
+@Composable
+fun NumbersSection(numbers: List<Numbers>?) {
+    numbers?.let {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            Arrangement.Center
+        ) {
+            Text(
+                text = "Numbers",
+                style = MaterialTheme.typography.h5
+            )
+            Spacer(modifier = Modifier.height(8.dp))
+
+            it.forEach { number ->
+                Text(
+                    text = number.gender,
+                    style = MaterialTheme.typography.h6
+                )
+                Spacer(modifier = Modifier.height(4.dp))
+                number.values.forEach {
+                    Text(text = "${it.numeral}: ${it.translation}")
+                }
+                Spacer(modifier = Modifier.height(4.dp))
+            }
+        }
+    }
+    Divider(color = Color.Gray, thickness = 0.5.dp)
+}
+
+@Composable
+fun NegativesSection(negatives: List<Negatives>?) {
+    negatives?.let {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            Arrangement.Center
+        ) {
+            Text(
+                text = "Negatives",
+                style = MaterialTheme.typography.h5
+            )
+            Spacer(modifier = Modifier.height(8.dp))
+
+            negatives.forEach { Text(text = it.notes) }
+            Spacer(modifier = Modifier.height(8.dp))
+            Text(
+                text = "Examples",
+                style = MaterialTheme.typography.h5
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            it.forEach { it ->
+                it.examples?.forEach {
+                    Text(text = "${it.sentence}: ${it.translation}")
+                }
+                Spacer(modifier = Modifier.height(4.dp))
+            }
+        }
+    }
+    Divider(color = Color.Gray, thickness = 0.5.dp)
+}
+
+@Composable
+fun QuestionsSection(questions: List<Questions>?) {
+    questions?.let {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            Arrangement.Center
+        ) {
+            Text(
+                text = "Questions",
+                style = MaterialTheme.typography.h5
+            )
+            Spacer(modifier = Modifier.height(8.dp))
+            Text(
+                text = "Examples",
+                style = MaterialTheme.typography.h5
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            it.forEach {it
+               Text(text = "${it.sentence}: ${it.translation}")
             }
         }
     }

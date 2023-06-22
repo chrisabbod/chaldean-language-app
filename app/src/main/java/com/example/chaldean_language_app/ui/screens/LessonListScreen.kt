@@ -6,6 +6,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.chaldean_language_app.LessonContent
 import com.example.chaldean_language_app.LessonData
 import com.example.chaldean_language_app.ui.components.*
 
@@ -39,6 +40,15 @@ fun LessonListScreen(lessonData: LessonData) {
             }
             lessonContent.vocabulary?.let {
                 item { VocabularySection(it) }
+            }
+            lessonContent.numbers?.let {
+                item { NumbersSection(it) }
+            }
+            lessonContent.negatives?.let {
+                item { NegativesSection(it) }
+            }
+            lessonContent.questions?.let {
+                item { QuestionsSection(it)}
             }
         }
     }
