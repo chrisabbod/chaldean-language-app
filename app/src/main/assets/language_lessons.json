@@ -4,6 +4,7 @@
       "lesson_number": 1,
       "lesson_title": "Personal Pronouns and Basic Verb Conjugation",
       "lesson_sections": 4,
+      "review": "",
       "preliminary_notes": "\"Zqapa\" vowel = ā\n\"Pthaha\" = a\n\nExample: āna (Translation: I)\nExample: bāba (Translation: father)",
       "lesson_contents": [
         {
@@ -196,10 +197,11 @@
         }
       ]
     },
-	{
+    {
       "lesson_number": 2,
       "lesson_title": "To Be (future), To Go (present)",
       "lesson_sections": 2,
+      "review": "",
       "preliminary_notes": "",
       "lesson_contents": [
         {
@@ -311,6 +313,7 @@
       "lesson_number": 3,
       "lesson_title": "To Go (future, past), intro to numbers, negatives and questions",
       "lesson_sections": 4,
+      "review": "Lesson 1\n· Personal Pronouns\n· To Be (Present, Past Tenses)\n· School related words\n\nLesson 2\n· To Be (Future Tense)\n· To Go (Present Tense)\n\nLesson 3\n· To Go (Future Tense)\n· To Go (Past Tense)\n· Numbers in Surath, Part 1\n· Negatives and Questions\n\nBEGIN LESSON 3\n\nNote: We will begin this lesson by introducing a simple word, ‘OR’. In English, the word ‘or’ is used quite often, to differentiate between this or that. In Surath, the translation of the word ‘or’ is ‘yen’. So, if you see the word yen written anywhere, you will know what it means.",
       "preliminary_notes": "The capital letter T will be used to signify the sound TD’ (not used in the English language), which is used in words such as Tura (mountain), TawAtha (as in, psheyna b’TawAtha), or T-eema (as in mar-T-eema). To pronounce this letter, press the middle of the tongue against the roof of the mouth a little farther back than the teeth. This is not your standard T sound. It is cushioned, sort of like a cross between T and D.",
       "lesson_contents": [
         {
@@ -319,6 +322,7 @@
               "verb": "TO GO",
               "verb_root": "izzal",
               "verb_tense": "FUTURE",
+              "notes": "Note: You may recall from Lesson #2 that the present tense of the verb ‘To Go’ (izzal) is conjugated in a very similar fashion. Note how similar the present tense is to the shortened version of the future tense:\n\nExample:\nI go - āna k-zāl-ee\nI will go - āna b-zāl-ee (or) āna bid-zāl-ee",
               "conjugations": [
                 {
                   "pronoun": "āna",
@@ -366,6 +370,7 @@
               "verb": "TO GO",
               "verb_root": "izzal",
               "verb_tense": "PAST",
+              "notes": "Note: Notice that the personal pronouns were omitted with this conjugation. The reason for this is that you should have the words I, he, she, you, y’all, and they memorized. A secondary reason for this is that, unlike English but very similar to Spanish and many other languages, the conjugation of the verb in Surath implies which pronoun should be used.\n\nCOMPARISON AND CONTRAST\nIn English, the same verb is used for I, you, he, she, and they, which makes the personal pronoun incredibly important to the meaning of the verb when used in a sentence:\n\nI went\nShe went\nThey went\nWe went\n\nWhereas in Spanish, the verb changes as it is conjugated, so the pronoun can be omitted:\n\nI went - fui\nHe went - fue\nThey went - fueron\nWe went - fuimos\n\nI believe that most languages are conjugated more similarly to Surath (or Spanish) than English. English is a highly irregular language.",
               "conjugations": [
                 {
                   "pronoun": "",
@@ -415,88 +420,88 @@
           "numbers": [
             {
               "gender": "Feminine",
-              "values": [
-                {
-                  "numeral": "0",
-                  "translation": "sipr"
-                },
-                {
-                  "numeral": "1",
-                  "translation": "khdhā"
-                },
-                {
-                  "numeral": "2",
-                  "translation": "tit-ae"
-                },
-                {
-                  "numeral": "3",
-                  "translation": "Telath"
-                },
-                {
-                  "numeral": "4",
-                  "translation": "arbae"
-                },
-                {
-                  "numeral": "5",
-                  "translation": "khamish"
-                }
-              ]
+              "number": "0",
+              "translation": "sipr"
+            },
+            {
+              "gender": "Feminine",
+              "number": "1",
+              "translation": "khdhā"
+            },
+            {
+              "gender": "Feminine",
+              "number": "2",
+              "translation": "tit-ae"
+            },
+            {
+              "gender": "Feminine",
+              "number": "3",
+              "translation": "Telath"
+            },
+            {
+              "gender": "Feminine",
+              "number": "4",
+              "translation": "arbae"
+            },
+            {
+              "gender": "Feminine",
+              "number": "5",
+              "translation": "khamish"
             },
             {
               "gender": "Masculine",
-              "values": [
-                {
-                  "numeral": "0",
-                  "translation": "sipr"
-                },
-                {
-                  "numeral": "1",
-                  "translation": "khā"
-                },
-                {
-                  "numeral": "2",
-                  "translation": "trae"
-                },
-                {
-                  "numeral": "3",
-                  "translation": "tlatha"
-                },
-                {
-                  "numeral": "4",
-                  "translation": "arba"
-                },
-                {
-                  "numeral": "5",
-                  "translation": "khamsha"
-                }
-              ]
+              "number": "0",
+              "translation": "sipr"
+            },
+            {
+              "gender": "Masculine",
+              "number": "1",
+              "translation": "khā"
+            },
+            {
+              "gender": "Masculine",
+              "number": "2",
+              "translation": "trae"
+            },
+            {
+              "gender": "Masculine",
+              "number": "3",
+              "translation": "tlatha"
+            },
+            {
+              "gender": "Masculine",
+              "number": "4",
+              "translation": "arba"
+            },
+            {
+              "gender": "Masculine",
+              "number": "5",
+              "translation": "khamsha"
             }
           ]
         },
         {
-          "negatives": [
-            {
-              "notes": "\"This is just a grammatical note: If you take a verb that we have already learned, such as ‘I am’ (Ana ee-win), and make a negative statement out of it, you must place the word ‘lea’ (no/not) before the verb in a sentence.\"\n",
-              "examples": [
-                {
-                  "sentence": "I am a father",
-                  "translation": "āna ee-win bāba"
-                },
-                {
-                  "sentence": "I am a mother",
-                  "translation": "āna ee-wan yimma"
-                },
-                {
-                  "sentence": "I am not a father",
-                  "translation": "āna lea-win bāba"
-                },
-                {
-                  "sentence": "I am not a mother",
-                  "translation": "āna lea-wan yimma"
-                }
-              ]
-            }
-          ],
+          "negatives": {
+            "notes": "\"This is just a grammatical note: If you take a verb that we have already learned, such as ‘I am’ (Ana ee-win), and make a negative statement out of it, you must place the word ‘lea’ (no/not) before the verb in a sentence.\"\n",
+            "examples": [
+              {
+                "sentence": "I am a father",
+                "translation": "āna ee-win bāba"
+              },
+              {
+                "sentence": "I am a mother",
+                "translation": "āna ee-wan yimma"
+              },
+              {
+                "sentence": "I am not a father",
+                "translation": "āna lea-win bāba"
+              },
+              {
+                "sentence": "I am not a mother",
+                "translation": "āna lea-wan yimma"
+              }
+            ]
+          },
           "questions": [
             {
               "sentence": ",Am I (m) a teacher?",
@@ -514,6 +519,7 @@
       "lesson_number": 4,
       "lesson_title": "Surath Lesson 4: To go (progressive), to make/to do conjugations",
       "lesson_sections": 2,
+      "review": "",
       "preliminary_notes": "As is the case in Spanish and in English, when using the progressive tense, we combine the present form of the verb ‘to be’ with the progressive of the verb that is taking place in real time.\n\nNote: A shortened form of the conjugated verb ‘to be’ can be attached to the end of the verb ‘to go’, which results in two different ways to say the progressive ‘to go’.",
       "lesson_contents": [
         {
@@ -522,36 +528,109 @@
               "verb": "TO GO",
               "verb_root": "izzal",
               "verb_tense": "PROGRESSIVE",
+              "notes": "Note: This next verb, ‘to make/do’, is similar to the verb hacer in Spanish, which means both to make and to do. In English, of course, these are separate verbs",
               "conjugations": [
-                {"pronoun": "I (m)", "conjugation": "ee-win bee-zāla (yen) bee-zāl-aywin", "translation": "I (m) am going"},
-                {"pronoun": "I (f)", "conjugation": "ee-wen bee-zāla (yen) bee-zāl-ay-wen", "translation": "I (f) am going"},
-                {"pronoun": "You (m)", "conjugation": "ee-wit bee-zāla (yen) bee-zāl-ay-wit", "translation": "You (m) are going"},
-                {"pronoun": "You (f)", "conjugation": "ee-wat bee-zāla (yen) bee-zāla-wat", "translation": "You (f) are going"},
-                {"pronoun": "He", "conjugation": "ee-lih bee-zāla (yen) bee-zāl-ay-lih", "translation": "He is going"},
-                {"pronoun": "She", "conjugation": "ee-lah bee-zāla (yen) bee-zāl-ay-lah", "translation": "She is going"},
-                {"pronoun": "We", "conjugation": "ee-wukh bee-zāla (yen) bee-zāl-ay-wukh", "translation": "We are going"},
-                {"pronoun": "Ye/Yall", "conjugation": "ee-wo-tun bee-zāla (yen) bee-zāl-ay-wukh", "translation": "Ye/Yall are going"},
-                {"pronoun": "They", "conjugation": "ee-lay bee-zāla (yen) bee-zāl-aly-lay", "translation": "They are going"}
+                {
+                  "pronoun": "I (m)",
+                  "conjugation": "ee-win bee-zāla (yen) bee-zāl-aywin",
+                  "translation": "I (m) am going"
+                },
+                {
+                  "pronoun": "I (f)",
+                  "conjugation": "ee-wen bee-zāla (yen) bee-zāl-ay-wen",
+                  "translation": "I (f) am going"
+                },
+                {
+                  "pronoun": "You (m)",
+                  "conjugation": "ee-wit bee-zāla (yen) bee-zāl-ay-wit",
+                  "translation": "You (m) are going"
+                },
+                {
+                  "pronoun": "You (f)",
+                  "conjugation": "ee-wat bee-zāla (yen) bee-zāla-wat",
+                  "translation": "You (f) are going"
+                },
+                {
+                  "pronoun": "He",
+                  "conjugation": "ee-lih bee-zāla (yen) bee-zāl-ay-lih",
+                  "translation": "He is going"
+                },
+                {
+                  "pronoun": "She",
+                  "conjugation": "ee-lah bee-zāla (yen) bee-zāl-ay-lah",
+                  "translation": "She is going"
+                },
+                {
+                  "pronoun": "We",
+                  "conjugation": "ee-wukh bee-zāla (yen) bee-zāl-ay-wukh",
+                  "translation": "We are going"
+                },
+                {
+                  "pronoun": "Ye/Yall",
+                  "conjugation": "ee-wo-tun bee-zāla (yen) bee-zāl-ay-wukh",
+                  "translation": "Ye/Yall are going"
+                },
+                {
+                  "pronoun": "They",
+                  "conjugation": "ee-lay bee-zāla (yen) bee-zāl-aly-lay",
+                  "translation": "They are going"
+                }
               ]
             },
             {
               "verb": "TO MAKE/TO DO",
               "verb_root": "‘wadh",
               "verb_tense": "PROGRESSIVE",
+              "notes": "Note: The verb root in the progressive tense does not change in the first person, second person, masculine, feminine, or plural conjugations. Only the article before or after the verb changes. This is the same behaviour as English progressive verbs.\n\nIn Spanish, this is referred to ir + a + infinitive. The verb ‘to be’ is conjugated in the present tense, but in Surath, the infinitive of the verb is not used. Generally, a prefix of ‘bee’ is added onto the verb’s root, and sometimes a vowel added onto the end of the root, thus creating the progressive tense.\n\nSo, in Surath, to make a regular verb progressive, you want to use the following formula:\n\n[hwa (conjugated in the present tense)] + [bee]+[infinitive]a\n\nHopefully that makes some sense to the readers.",
               "conjugations": [
-                {"pronoun": "I (m)", "conjugation": "ee-win bee-wādha (yen) bee-wādhay-win", "translation": "I (m) am making/doing"},
-                {"pronoun": "I (f)", "conjugation": "ee-wan bee-wādha (yen) bee-wādhay-wen", "translation": "I (f) am doing/making"},
-                {"pronoun": "You (m)", "conjugation": "ee-wit bee-wādha (yen) bee-wādhay-wit", "translation": "You (m) are making/doing"},
-                {"pronoun": "You (f)", "conjugation": "ee-wat bee-wādha (yen) bee-wādhay-wat", "translation": "You (f) are doing/making"},
-                {"pronoun": "He", "conjugation": "ee-lih bee-wādha (yen) bee-wādhay-lih", "translation": "He is making/doing"},
-                {"pronoun": "She", "conjugation": "ee-lah bee-wādha (yen) bee-wādhay-lah", "translation": "She is doing/making"},
-                {"pronoun": "We", "conjugation": "ee-wukh bee-wādha (yen) bee-wadhay-wukh", "translation": "We are making/doing"},
-                {"pronoun": "Ye/Yall", "conjugation": "ee-wo-tun bee-wādha (yen) bee-wādhay-wotun", "translation": "Ye/Yall doing/making"},
-                {"pronoun": "They", "conjugation": "ee-lay bee-wādha (yen) bee-wādhay-lay", "translation": "They are making/doing"}
+                {
+                  "pronoun": "I (m)",
+                  "conjugation": "ee-win bee-wādha (yen) bee-wādhay-win",
+                  "translation": "I (m) am making/doing"
+                },
+                {
+                  "pronoun": "I (f)",
+                  "conjugation": "ee-wan bee-wādha (yen) bee-wādhay-wen",
+                  "translation": "I (f) am doing/making"
+                },
+                {
+                  "pronoun": "You (m)",
+                  "conjugation": "ee-wit bee-wādha (yen) bee-wādhay-wit",
+                  "translation": "You (m) are making/doing"
+                },
+                {
+                  "pronoun": "You (f)",
+                  "conjugation": "ee-wat bee-wādha (yen) bee-wādhay-wat",
+                  "translation": "You (f) are doing/making"
+                },
+                {
+                  "pronoun": "He",
+                  "conjugation": "ee-lih bee-wādha (yen) bee-wādhay-lih",
+                  "translation": "He is making/doing"
+                },
+                {
+                  "pronoun": "She",
+                  "conjugation": "ee-lah bee-wādha (yen) bee-wādhay-lah",
+                  "translation": "She is doing/making"
+                },
+                {
+                  "pronoun": "We",
+                  "conjugation": "ee-wukh bee-wādha (yen) bee-wadhay-wukh",
+                  "translation": "We are making/doing"
+                },
+                {
+                  "pronoun": "Ye/Yall",
+                  "conjugation": "ee-wo-tun bee-wādha (yen) bee-wādhay-wotun",
+                  "translation": "Ye/Yall doing/making"
+                },
+                {
+                  "pronoun": "They",
+                  "conjugation": "ee-lay bee-wādha (yen) bee-wādhay-lay",
+                  "translation": "They are making/doing"
+                }
               ]
             }
-          ],
-          "notes": "The verb root in the progressive tense does not change in the first person, second person, masculine, feminine, or plural conjugations. Only the article before or after the verb changes. This is the same behaviour as English progressive verbs.\n\nIn Spanish, this is referred to ir + a + infinitive. The verb ‘to be’ is conjugated in the present tense, but in Surath, the infinitive of the verb is not used. Generally, a prefix of ‘bee’ is added onto the verb’s root, and sometimes a vowel added onto the end of the root, thus creating the progressive tense.\n\nSo, in Surath, to make a regular verb progressive, you want to use the following formula:\n\n[hwa (conjugated in the present tense)] + [bee]+[infinitive]a\n\nHopefully that makes some sense to the readers."
+          ]
         }
       ]
     }
