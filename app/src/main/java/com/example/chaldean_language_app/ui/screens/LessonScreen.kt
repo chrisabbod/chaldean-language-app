@@ -3,7 +3,6 @@ package com.example.chaldean_language_app.ui.screens
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -31,10 +30,10 @@ fun LessonScreen(lesson: Lesson) {
             }
         }
         item {
-            if (lesson.preliminary_notes.isNotEmpty()) {
+            if (lesson.preliminary_notes?.isNotEmpty() == true) {
                 PreliminaryNotesSection(
-                    notes = lesson.preliminary_notes
-                )
+                        notes = lesson.preliminary_notes
+                    )
             }
         }
         lesson.lesson_contents.forEach { lessonContent ->

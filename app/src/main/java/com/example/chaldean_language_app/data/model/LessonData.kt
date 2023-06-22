@@ -9,7 +9,7 @@ data class Lesson(
     val lesson_title: String,
     val lesson_sections: Int,
     val review: String?,
-    val preliminary_notes: String,
+    val preliminary_notes: String?,
     val lesson_contents: List<LessonContent>
 )
 
@@ -17,9 +17,9 @@ data class LessonContent(
     val pronouns: Pronouns?,
     val verbs: List<Verb>?,
     val vocabulary: List<Vocabulary>?,
-    val numbers: List<Numbers>?,
+    val numbers: Numbers?,
     val negatives: Negatives?,
-    val questions: List<Questions>?,
+    val questions: List<Question>?,
 )
 
 data class Pronouns(
@@ -56,10 +56,14 @@ data class Vocabulary(
 )
 
 data class Numbers(
+    val notes: String?,
+    val number: List<Number>?
+)
+
+data class Number(
     val gender: String,
-    val number: String,
+    val numeral: String,
     val translation: String,
-    val notes: String?
 )
 
 data class Negatives(
@@ -73,7 +77,7 @@ data class Examples(
     val notes: String?
 )
 
-data class Questions(
+data class Question(
     val sentence: String,
     val translation: String,
     val notes: String?

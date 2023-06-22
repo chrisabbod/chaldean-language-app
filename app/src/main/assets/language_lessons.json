@@ -322,7 +322,7 @@
               "verb": "TO GO",
               "verb_root": "izzal",
               "verb_tense": "FUTURE",
-              "notes": "Note: You may recall from Lesson #2 that the present tense of the verb ‘To Go’ (izzal) is conjugated in a very similar fashion. Note how similar the present tense is to the shortened version of the future tense:\n\nExample:\nI go - āna k-zāl-ee\nI will go - āna b-zāl-ee (or) āna bid-zāl-ee",
+              "notes": "Note: You may recall from Lesson #2 that the present tense of the verb 'To Go' (izzal) is conjugated in a very similar fashion. Note how similar the present tense is to the shortened version of the future tense:\n\nExample:\nI go - āna k-zāl-ee\nI will go - āna b-zāl-ee (or) āna bid-zāl-ee",
               "conjugations": [
                 {
                   "pronoun": "āna",
@@ -417,68 +417,71 @@
           ]
         },
         {
-          "numbers": [
-            {
-              "gender": "Feminine",
-              "number": "0",
-              "translation": "sipr"
-            },
-            {
-              "gender": "Feminine",
-              "number": "1",
-              "translation": "khdhā"
-            },
-            {
-              "gender": "Feminine",
-              "number": "2",
-              "translation": "tit-ae"
-            },
-            {
-              "gender": "Feminine",
-              "number": "3",
-              "translation": "Telath"
-            },
-            {
-              "gender": "Feminine",
-              "number": "4",
-              "translation": "arbae"
-            },
-            {
-              "gender": "Feminine",
-              "number": "5",
-              "translation": "khamish"
-            },
-            {
-              "gender": "Masculine",
-              "number": "0",
-              "translation": "sipr"
-            },
-            {
-              "gender": "Masculine",
-              "number": "1",
-              "translation": "khā"
-            },
-            {
-              "gender": "Masculine",
-              "number": "2",
-              "translation": "trae"
-            },
-            {
-              "gender": "Masculine",
-              "number": "3",
-              "translation": "tlatha"
-            },
-            {
-              "gender": "Masculine",
-              "number": "4",
-              "translation": "arba"
-            },
-            {
-              "gender": "Masculine",
-              "number": "5",
-              "translation": "khamsha"
-            }
-          ]
+          "numbers": {
+            "notes": "NUMBERS IN SURATH: PART ONE\n\nNote: I have researched the number 'zero' in Surath by asking dozens of people how to translate this. I received a few different answers. The rest of the numbers are far less controversial than zero.\n\nZero - Sipr\n\n(Note: the word Zero in Arabic is sifr)\n\nSome might just translate zero as 'chu mindy', but chu-mindy really translates to 'nothing', not 'zero'\n\nNote: Numerals in Surath have both masculine and feminine translations",
+            "number": [
+              {
+                "gender": "Feminine",
+                "numeral": "0",
+                "translation": "sipr"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "1",
+                "translation": "khdhā"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "2",
+                "translation": "tit-ae"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "3",
+                "translation": "Telath"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "4",
+                "translation": "arbae"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "5",
+                "translation": "khamish"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "0",
+                "translation": "sipr"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "1",
+                "translation": "khā"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "2",
+                "translation": "trae"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "3",
+                "translation": "tlatha"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "4",
+                "translation": "arba"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "5",
+                "translation": "khamsha"
+              }
+            ]
+          }
         },
         {
           "negatives": {
@@ -504,7 +507,7 @@
           },
           "questions": [
             {
-              "sentence": ",Am I (m) a teacher?",
+              "sentence": "Am I (m) a teacher?",
               "translation": "ee-win āna malpāna?"
             },
             {
@@ -631,6 +634,179 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Lesson 5: Questions, numbers 5-10, To do (present)",
+      "lesson_sections": 4,
+      "review": "OK, so we are learning the building blocks for a language. The following verbs have been covered in the last four lessons:\n\nTO BE (ܗܘܐ)\nPast, Present, and Future\n\nTO GO (ܐܸܙܲܠ)\nPast, Present, Future, and Progressive\n\nTO MAKE/DO (ܥܘܲܕܼ)\nProgressive\n\nWe have also learned the following: \n• Numbers (1-5) \n• School Vocabulary \n• Negatives and Questions\n\nLet’s begin Lesson 5 with Questions, which are important when learning any language.\n\nIn English, the common phrase is “Who, what, where, when, why, and how? We’ll begin with these, plus a couple more:",
+      "preliminary_notes": null,
+      "lesson_contents": [
+        {
+          "questions": [
+            {
+              "sentence": "Who?",
+              "translation": "mā-nee?",
+              "notes": null
+            },
+            {
+              "sentence": "Whose?",
+              "translation": "d'mā-nee?",
+              "notes": null
+            },
+            {
+              "sentence": "What?",
+              "translation": "ma-ha?",
+              "notes": "Only when 'what' stands alone"
+            },
+            {
+              "sentence": "What/How?",
+              "translation": "mā",
+              "notes": "mā = closer to “how” than to “what” though it can mean both. Not quite sure what situations call for mā and what situations call for ma-ha"
+            },
+            {
+              "sentence": "What For?",
+              "translation": "tā ma-ha?",
+              "notes": null
+            },
+            {
+              "sentence": "What is it?",
+              "translation": "meelih?",
+              "notes": null
+            },
+            {
+              "sentence": "Where?",
+              "translation": "eae-ka? (yen) kaela?",
+              "notes": "I’m still not quite sure what the difference is between eae-ka and Kaela"
+            },
+            {
+              "sentence": "From Where?",
+              "translation": "min d'aeykā?",
+              "notes": null
+            },
+            {
+              "sentence": "From Here",
+              "translation": "min d'ākha",
+              "notes": null
+            },
+            {
+              "sentence": "When?",
+              "translation": "ee-mahn?",
+              "notes": null
+            },
+            {
+              "sentence": "Why?",
+              "translation": "qay?",
+              "notes": "the Q sound in Surath is not the same as the Q sound in English. It is a hard sound that comes from the throat, as in the words shwiq-lukh (you left) or qee-dha (burnt)"
+            },
+            {
+              "sentence": "Which?",
+              "translation": "aey-mā?",
+              "notes": null
+            },
+            {
+              "sentence": "Which one of them?",
+              "translation": "aeymā  minnaey?",
+              "notes": null
+            },
+            {
+              "sentence": "What For?",
+              "translation": "ta-ma-ha?",
+              "notes": null
+            },
+            {
+              "sentence": "How?",
+              "translation": "dikh?",
+              "notes": null
+            },
+            {
+              "sentence": "How many?",
+              "translation": "(oo)kma?",
+              "notes": null
+            },
+            {
+              "sentence": "How much?",
+              "translation": "mā-qa?",
+              "notes": null
+            },
+            {
+              "sentence": "How often?",
+              "translation": "kod māqā?",
+              "notes": null
+            },
+            {
+              "sentence": "Isn't he?",
+              "translation": "laelih?",
+              "notes": null
+            },
+            {
+              "sentence": "Isn't she?",
+              "translation": "laelah?",
+              "notes": null
+            },
+            {
+              "sentence": "Aren't they?",
+              "translation": "laelay?",
+              "notes": null
+            }
+          ],
+          "numbers": {
+            "notes": "NUMBERS - PART TWO\n\nHopefully you recall numbers 0-5 in both masculine and feminine forms. Now we are going to learn 5-10.\n\n** Remember: It is not the speaker, but the OBJECT, that determines whether masculine and feminine numerals are used.\n\n** Note: ’a is used to denote a sound which is not used in the English language. The sound comes from deep within the throat. An example of two words that use the ‘a are: ‘at-oo (Last Name), or ‘amba.",
+            "number": [
+              {
+                "gender": "Feminine",
+                "numeral": "6",
+                "translation": "ishit"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "7",
+                "translation": "eash-waa"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "8",
+                "translation": "tmanae"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "9",
+                "translation": "tesha"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "10",
+                "translation": "esar"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "6",
+                "translation": "ishta"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "7",
+                "translation": "shoa’a"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "8",
+                "translation": "tmanya"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "9",
+                "translation": "tish’a"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "10",
+                "translation": "esra"
+              }
+            ]
+          }
         }
       ]
     }
