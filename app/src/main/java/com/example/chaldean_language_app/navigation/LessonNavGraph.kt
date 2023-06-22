@@ -35,3 +35,7 @@ fun LessonNavGraph(
         }
     }
 }
+
+//TODO: Double check that all information is in section 4
+//TODO: Add notes to lesson 3 JSON and make a Notes Compose function
+// to add to the end of the LessonScreen and display if available

@@ -42,6 +42,20 @@ fun PreliminaryNotesSection(notes: String) {
 }
 
 @Composable
+fun NotesSection(notes: String) {
+    Column(
+        modifier = Modifier.padding(16.dp)
+    ) {
+        Text(
+            text = "Notes",
+            style = MaterialTheme.typography.h5
+        )
+        Text(text = notes)
+    }
+    Divider(color = Color.Gray, thickness = 0.5.dp)
+}
+
+@Composable
 fun PronounsSection(pronounSection: PronounSection?) {
     pronounSection?.let {
         Column(

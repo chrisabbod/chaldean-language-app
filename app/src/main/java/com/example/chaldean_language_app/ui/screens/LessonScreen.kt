@@ -28,7 +28,6 @@ fun LessonScreen(lesson: Lesson) {
                     notes = lesson.preliminary_notes
                 )
             }
-
         }
         lesson.lesson_contents.forEach { lessonContent ->
             lessonContent.pronouns?.let {
@@ -36,6 +35,9 @@ fun LessonScreen(lesson: Lesson) {
             }
             lessonContent.verbs?.let {
                 item { VerbsSection(it) }
+                lessonContent.notes.let {
+                    item { NotesSection(it) }
+                }
             }
             lessonContent.vocabulary?.let {
                 item { VocabularySection(it) }
@@ -47,7 +49,7 @@ fun LessonScreen(lesson: Lesson) {
                 item { NegativesSection(it) }
             }
             lessonContent.questions?.let {
-                item { QuestionsSection(it)}
+                item { QuestionsSection(it) }
             }
         }
     }
