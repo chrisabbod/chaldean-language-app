@@ -509,6 +509,51 @@
           ]
         }
       ]
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Surath Lesson 4: To go (progressive), to make/to do conjugations",
+      "lesson_sections": 2,
+      "preliminary_notes": "As is the case in Spanish and in English, when using the progressive tense, we combine the present form of the verb ‘to be’ with the progressive of the verb that is taking place in real time.\n\nNote: A shortened form of the conjugated verb ‘to be’ can be attached to the end of the verb ‘to go’, which results in two different ways to say the progressive ‘to go’.",
+      "lesson_contents": [
+        {
+          "verbs": [
+            {
+              "verb": "TO GO",
+              "verb_root": "izzal",
+              "verb_tense": "PROGRESSIVE",
+              "conjugations": [
+                {"pronoun": "I (m)", "conjugation": "ee-win bee-zāla (yen) bee-zāl-aywin", "translation": "I (m) am going"},
+                {"pronoun": "I (f)", "conjugation": "ee-wen bee-zāla (yen) bee-zāl-ay-wen", "translation": "I (f) am going"},
+                {"pronoun": "You (m)", "conjugation": "ee-wit bee-zāla (yen) bee-zāl-ay-wit", "translation": "You (m) are going"},
+                {"pronoun": "You (f)", "conjugation": "ee-wat bee-zāla (yen) bee-zāla-wat", "translation": "You (f) are going"},
+                {"pronoun": "He", "conjugation": "ee-lih bee-zāla (yen) bee-zāl-ay-lih", "translation": "He is going"},
+                {"pronoun": "She", "conjugation": "ee-lah bee-zāla (yen) bee-zāl-ay-lah", "translation": "She is going"},
+                {"pronoun": "We", "conjugation": "ee-wukh bee-zāla (yen) bee-zāl-ay-wukh", "translation": "We are going"},
+                {"pronoun": "Ye/Yall", "conjugation": "ee-wo-tun bee-zāla (yen) bee-zāl-ay-wukh", "translation": "Ye/Yall are going"},
+                {"pronoun": "They", "conjugation": "ee-lay bee-zāla (yen) bee-zāl-aly-lay", "translation": "They are going"}
+              ]
+            },
+            {
+              "verb": "TO MAKE/TO DO",
+              "verb_root": "‘wadh",
+              "verb_tense": "PROGRESSIVE",
+              "conjugations": [
+                {"pronoun": "I (m)", "conjugation": "ee-win bee-wādha (yen) bee-wādhay-win", "translation": "I (m) am making/doing"},
+                {"pronoun": "I (f)", "conjugation": "ee-wan bee-wādha (yen) bee-wādhay-wen", "translation": "I (f) am doing/making"},
+                {"pronoun": "You (m)", "conjugation": "ee-wit bee-wādha (yen) bee-wādhay-wit", "translation": "You (m) are making/doing"},
+                {"pronoun": "You (f)", "conjugation": "ee-wat bee-wādha (yen) bee-wādhay-wat", "translation": "You (f) are doing/making"},
+                {"pronoun": "He", "conjugation": "ee-lih bee-wādha (yen) bee-wādhay-lih", "translation": "He is making/doing"},
+                {"pronoun": "She", "conjugation": "ee-lah bee-wādha (yen) bee-wādhay-lah", "translation": "She is doing/making"},
+                {"pronoun": "We", "conjugation": "ee-wukh bee-wādha (yen) bee-wadhay-wukh", "translation": "We are making/doing"},
+                {"pronoun": "Ye/Yall", "conjugation": "ee-wo-tun bee-wādha (yen) bee-wādhay-wotun", "translation": "Ye/Yall doing/making"},
+                {"pronoun": "They", "conjugation": "ee-lay bee-wādha (yen) bee-wādhay-lay", "translation": "They are making/doing"}
+              ]
+            }
+          ],
+          "notes": "The verb root in the progressive tense does not change in the first person, second person, masculine, feminine, or plural conjugations. Only the article before or after the verb changes. This is the same behaviour as English progressive verbs.\n\nIn Spanish, this is referred to ir + a + infinitive. The verb ‘to be’ is conjugated in the present tense, but in Surath, the infinitive of the verb is not used. Generally, a prefix of ‘bee’ is added onto the verb’s root, and sometimes a vowel added onto the end of the root, thus creating the progressive tense.\n\nSo, in Surath, to make a regular verb progressive, you want to use the following formula:\n\n[hwa (conjugated in the present tense)] + [bee]+[infinitive]a\n\nHopefully that makes some sense to the readers."
+        }
+      ]
     }
   ]
 }

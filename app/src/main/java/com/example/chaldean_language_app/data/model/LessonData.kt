@@ -18,7 +18,8 @@ data class LessonContent(
     val vocabulary: List<Vocabulary>?,
     val numbers: List<Numbers>?,
     val negatives: List<Negatives>?,
-    val questions: List<Questions>?
+    val questions: List<Questions>?,
+    val notes: String
 )
 
 data class PronounSection(
