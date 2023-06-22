@@ -306,6 +306,209 @@
           ]
         }
       ]
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "To Go (future, past), intro to numbers, negatives and questions",
+      "lesson_sections": 4,
+      "preliminary_notes": "The capital letter T will be used to signify the sound TD’ (not used in the English language), which is used in words such as Tura (mountain), TawAtha (as in, psheyna b’TawAtha), or T-eema (as in mar-T-eema). To pronounce this letter, press the middle of the tongue against the roof of the mouth a little farther back than the teeth. This is not your standard T sound. It is cushioned, sort of like a cross between T and D.",
+      "lesson_contents": [
+        {
+          "verbs": [
+            {
+              "verb": "TO GO",
+              "verb_root": "izzal",
+              "verb_tense": "FUTURE",
+              "conjugations": [
+                {
+                  "pronoun": "āna",
+                  "conjugation": "bid zāl-ee (yen) āna b-zāl-ee",
+                  "translation": "I will go"
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "bid zāl-ukh (yen) āyit b-zāl-ukh",
+                  "translation": "You (m) will go"
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "bid zāl-akh (yen) āyit b-zāl-akh",
+                  "translation": "You (f) will go"
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "bid zāl-eh (yen) āwo b-zāl-eh",
+                  "translation": "He will go"
+                },
+                {
+                  "pronoun": "āyee",
+                  "conjugation": "bid zāl-ah (yen) āya b-zāl-ah",
+                  "translation": "She will go"
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "bid zāl-an (yen) akhny b-zāl-an",
+                  "translation": "We will go"
+                },
+                {
+                  "pronoun": "akhtun",
+                  "conjugation": "bid zalotun (yen) akhtun b-zal-otun",
+                  "translation": "Ye/Yall will go"
+                },
+                {
+                  "pronoun": "anee",
+                  "conjugation": "bid zāl-ay (yen) anay b-zāl-ay",
+                  "translation": "They will go"
+                }
+              ]
+            },
+            {
+              "verb": "TO GO",
+              "verb_root": "izzal",
+              "verb_tense": "PAST",
+              "conjugations": [
+                {
+                  "pronoun": "",
+                  "conjugation": "zil-ly",
+                  "translation": "I went"
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zil-lukh",
+                  "translation": "You (m) went"
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zil-lakh",
+                  "translation": "You (f) went"
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zil-leh",
+                  "translation": "He went"
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zil-lah",
+                  "translation": "She went"
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zil-lan",
+                  "translation": "We went"
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zil-lokhun",
+                  "translation": "Ye/Yall went"
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zil-lay",
+                  "translation": "They went"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numbers": [
+            {
+              "gender": "Feminine",
+              "values": [
+                {
+                  "numeral": "0",
+                  "translation": "sipr"
+                },
+                {
+                  "numeral": "1",
+                  "translation": "khdhā"
+                },
+                {
+                  "numeral": "2",
+                  "translation": "tit-ae"
+                },
+                {
+                  "numeral": "3",
+                  "translation": "Telath"
+                },
+                {
+                  "numeral": "4",
+                  "translation": "arbae"
+                },
+                {
+                  "numeral": "5",
+                  "translation": "khamish"
+                }
+              ]
+            },
+            {
+              "gender": "Masculine",
+              "values": [
+                {
+                  "numeral": "0",
+                  "translation": "sipr"
+                },
+                {
+                  "numeral": "1",
+                  "translation": "khā"
+                },
+                {
+                  "numeral": "2",
+                  "translation": "trae"
+                },
+                {
+                  "numeral": "3",
+                  "translation": "tlatha"
+                },
+                {
+                  "numeral": "4",
+                  "translation": "arba"
+                },
+                {
+                  "numeral": "5",
+                  "translation": "khamsha"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "negatives": [
+            {
+              "notes": "\"This is just a grammatical note: If you take a verb that we have already learned, such as ‘I am’ (Ana ee-win), and make a negative statement out of it, you must place the word ‘lea’ (no/not) before the verb in a sentence.\"\n",
+              "examples": [
+                {
+                  "sentence": "I am a father",
+                  "translation": "āna ee-win bāba"
+                },
+                {
+                  "sentence": "I am a mother",
+                  "translation": "āna ee-wan yimma"
+                },
+                {
+                  "sentence": "I am not a father",
+                  "translation": "āna lea-win bāba"
+                },
+                {
+                  "sentence": "I am not a mother",
+                  "translation": "āna lea-wan yimma"
+                }
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "sentence": ",Am I (m) a teacher?",
+              "translation": "ee-win āna malpāna?"
+            },
+            {
+              "sentence": "Am I a daughter?",
+              "translation": "ee-wan āna brāta?"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
