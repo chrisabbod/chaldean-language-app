@@ -28,6 +28,21 @@ fun LessonTitle(title: String) {
 }
 
 @Composable
+fun ReviewSection(review: String) {
+    Column(
+        modifier = Modifier.padding(16.dp)
+    ) {
+        Text(
+            text = "Review",
+            style = MaterialTheme.typography.h5
+        )
+        Spacer(modifier = Modifier.height(8.dp))
+        Text(text = review)
+    }
+    Divider(color = Color.Gray, thickness = 0.5.dp)
+}
+
+@Composable
 fun PreliminaryNotesSection(notes: String) {
     Column(
         modifier = Modifier.padding(16.dp)
@@ -36,6 +51,7 @@ fun PreliminaryNotesSection(notes: String) {
             text = "Preliminary Notes",
             style = MaterialTheme.typography.h5
         )
+        Spacer(modifier = Modifier.height(8.dp))
         Text(text = notes)
     }
     Divider(color = Color.Gray, thickness = 0.5.dp)
@@ -56,7 +72,7 @@ fun NotesSection(notes: String) {
 }
 
 @Composable
-fun PronounsSection(pronounSection: PronounSection?) {
+fun PronounsSection(pronounSection: Pronouns?) {
     pronounSection?.let {
         Column(
             modifier = Modifier.padding(16.dp)
@@ -106,6 +122,10 @@ fun VerbsSection(verbs: List<Verb>?) {
                         Text(text = "${conjugation.translation}: ${conjugation.pronoun} ${conjugation.conjugation}")
                     }
                     Spacer(modifier = Modifier.height(16.dp))
+                    if (verb.notes?.isNotEmpty() == true) {
+                        Text(text = verb.notes)
+                    }
+                    Spacer(modifier = Modifier.height(8.dp))
                 }
             }
         }
@@ -148,17 +168,28 @@ fun NumbersSection(numbers: List<Numbers>?) {
                 style = MaterialTheme.typography.h5
             )
             Spacer(modifier = Modifier.height(8.dp))
-
-            it.forEach { number ->
-                Text(
-                    text = number.gender,
-                    style = MaterialTheme.typography.h6
-                )
-                Spacer(modifier = Modifier.height(4.dp))
-                number.values.forEach {
-                    Text(text = "${it.numeral}: ${it.translation}")
+            Text(
+                text = "Feminine",
+                style = MaterialTheme.typography.h6
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            it.forEach { it ->
+                if (it.gender == "Feminine") {
+                    Text(text = "${it.number}: ${it.translation}")
+                    Spacer(modifier = Modifier.height(4.dp))
                 }
-                Spacer(modifier = Modifier.height(4.dp))
+            }
+            Spacer(modifier = Modifier.height(8.dp))
+            Text(
+                text = "Masculine",
+                style = MaterialTheme.typography.h6
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            it.forEach { it ->
+                if (it.gender == "Masculine") {
+                    Text(text = "${it.number}: ${it.translation}")
+                    Spacer(modifier = Modifier.height(4.dp))
+                }
             }
         }
     }
@@ -166,7 +197,7 @@ fun NumbersSection(numbers: List<Numbers>?) {
 }
 
 @Composable
-fun NegativesSection(negatives: List<Negatives>?) {
+fun NegativesSection(negatives: Negatives?) {
     negatives?.let {
         Column(
             modifier = Modifier.padding(16.dp),
@@ -178,18 +209,15 @@ fun NegativesSection(negatives: List<Negatives>?) {
             )
             Spacer(modifier = Modifier.height(8.dp))
 
-            negatives.forEach { Text(text = it.notes) }
             Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = "Examples",
-                style = MaterialTheme.typography.h5
+                style = MaterialTheme.typography.h6
             )
             Spacer(modifier = Modifier.height(4.dp))
-            it.forEach { it ->
-                it.examples?.forEach {
-                    Text(text = "${it.sentence}: ${it.translation}")
-                }
-                Spacer(modifier = Modifier.height(4.dp))
+
+            it.examples?.forEach { it ->
+                Text(text = "${it.sentence}: ${it.translation}")
             }
         }
     }
@@ -210,7 +238,7 @@ fun QuestionsSection(questions: List<Questions>?) {
             Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = "Examples",
-                style = MaterialTheme.typography.h5
+                style = MaterialTheme.typography.h6
             )
             Spacer(modifier = Modifier.height(4.dp))
             it.forEach {it
