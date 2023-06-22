@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.chaldean_language_app.data.model.LessonData
 import com.example.chaldean_language_app.ui.components.LessonTitle
 import com.example.chaldean_language_app.ui.components.PronounsSection
 import com.example.chaldean_language_app.ui.components.VerbsSection

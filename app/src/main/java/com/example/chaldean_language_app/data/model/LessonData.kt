@@ -1,4 +1,4 @@
-package com.example.chaldean_language_app
+package com.example.chaldean_language_app.data.model
 
 data class LessonData(
     val lessons: List<Lesson>
