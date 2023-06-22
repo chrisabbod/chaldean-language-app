@@ -13,9 +13,10 @@ class MainActivity : AppCompatActivity() {
 
         val jsonString = loadJSONFromAsset(this, "language_lessons.json")
         val lessonData = parseJSON(jsonString)
+        val lessons = lessonData.lessons
 
         setContent {
-            LessonListScreen(lessonData = lessonData)
+            LessonListScreen(lessons = lessons)
         }
     }
 }
