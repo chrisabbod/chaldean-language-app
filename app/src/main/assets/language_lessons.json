@@ -1506,6 +1506,131 @@
           ]
         }
       ]
+    },
+    {
+      "lesson_number": 11,
+      "lesson_title": "ܩܲܡ To Get Up/Stand Up/Arise/Wake Up (Present, Future)",
+      "lesson_sections": 2,
+      "review": null,
+      "preliminary_notes": "Get up, stand up: stand up for your rights!\nGet up, stand up: don't give up the fight!\n\n- Bob Marley",
+      "lesson_contents": [
+        {
+          "verbs": [
+            {
+              "verb": "TO GET UP/ TO STAND UP/ TO ARISE",
+              "verb_root": "qam (ܩܲܡ)",
+              "verb_tense": "PRESENT",
+              "notes": "Note: As aforementioned in Lesson 10, If you add “min shintha” (or, shortened, “m-shintha”) as a suffix on this conjugation, the verb becomes “to wake up”, or “to get up/arise from sleep”.\n\nExample:\n- I wake up every morning at 9 o'clock: shaeth'd tish'aa mqoshqa āna k-qaymin min shintha kod yoma",
+              "conjugations": [
+                {
+                  "pronoun": "",
+                  "conjugation": "k-qay-min",
+                  "translation": "I get up / I stand up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "k-qay-mit",
+                  "translation": "You (m) arise",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "k-qay-mat",
+                  "translation": "You (f) get up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "k-qa-yim",
+                  "translation": "He stands up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "k-qay-ma",
+                  "translation": "She gets up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "k-qay-mukh",
+                  "translation": "We arise",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "k-qay-mutun",
+                  "translation": "Ye stand up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "k-qay-mee",
+                  "translation": "They get up",
+                  "notes": null
+                }
+              ]
+            },
+            {
+              "verb": "TO GET UP/ TO STAND UP/ TO ARISE",
+              "verb_root": "qam (ܩܲܡ)",
+              "verb_tense": "FUTURE",
+              "notes": null,
+              "conjugations": [
+                {
+                  "pronoun": "",
+                  "conjugation": "bid-qay-min (yen) zee-qay-min",
+                  "translation": "I will get up / I will stand up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "bid-qay-mit (yen) zee-qay-mit",
+                  "translation": "You (m) will arise",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "bid-qay-mat min shintha (yen) zee-qay-mat m-shintha",
+                  "translation": "You (f) will wake up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "bid-qa-yim (yen) zee-qa-yim",
+                  "translation": "He will stand up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "bid-qay-ma (yen) zee-qay-ma",
+                  "translation": "She will arise",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "bid-qay-mukh (yen) zee-qay-mukh",
+                  "translation": "We will get up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "bid-qay-mutun (yen) zee-qay-mutun",
+                  "translation": "Ye will get up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "bid-qay-mee (yen) zee-qay-mee",
+                  "translation": "They will arise",
+                  "notes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
