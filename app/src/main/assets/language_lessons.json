@@ -1005,7 +1005,7 @@
       "lesson_title": "To Have",
       "lesson_sections": 3,
       "review": null,
-      "preliminary_notes": "“To Have” ܐܝܼܬܼ (Past, Present Conjugations + Future)",
+      "preliminary_notes": "To Have” ܐܝܼܬܼ (Past, Present Conjugations + Future)",
       "lesson_contents": [
         {
           "verbs": [
@@ -1232,6 +1232,94 @@
               {
                 "word": "shorigmih",
                 "translation": "Pickled Turnips"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lesson_number": 9,
+      "lesson_title": "Vocabulary from the Neck Up",
+      "lesson_sections": 3,
+      "review": null,
+      "preliminary_notes": "Today we are going to focus on vocabulary relating to the human body from the neck, up.",
+      "lesson_contents": [
+        {
+          "vocabulary": {
+            "notes": null,
+            "words": [
+              {
+                "word": "resha",
+                "translation": "Head"
+              },
+              {
+                "word": "kosih",
+                "translation": "Hair"
+              },
+              {
+                "word": "nātha",
+                "translation": "Ear"
+              },
+              {
+                "word": "nathyātha",
+                "translation": "Ears"
+              },
+              {
+                "word": "aena",
+                "translation": "Eye"
+              },
+              {
+                "word": "aenih",
+                "translation": "Eyes"
+              },
+              {
+                "word": "bigweene",
+                "translation": "Eye Brows"
+              },
+              {
+                "word": "gwyeena (gnywih) d'a'ynih",
+                "translation": "Eye Brow(s)"
+              },
+              {
+                "word": "poqa",
+                "translation": "Nose"
+              },
+              {
+                "word": "daqna",
+                "translation": "Beard"
+              },
+              {
+                "word": "kimma",
+                "translation": "Mouth"
+              },
+              {
+                "word": "kāka",
+                "translation": "Tooth"
+              },
+              {
+                "word": "kākih",
+                "translation": "Teeth"
+              },
+              {
+                "word": "looshāna",
+                "translation": "Tongue"
+              },
+              {
+                "word": "pātha",
+                "translation": "Face"
+              },
+              {
+                "word": "siptha",
+                "translation": "Lip"
+              },
+              {
+                "word": "sipwātha",
+                "translation": "Lips (plural)"
+              },
+              {
+                "word": "pāqartha",
+                "translation": "Neck"
               }
             ]
           }

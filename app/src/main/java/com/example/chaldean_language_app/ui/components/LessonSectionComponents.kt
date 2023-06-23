@@ -149,7 +149,9 @@ fun VocabularySection(vocabulary: Vocabulary?) {
                 style = MaterialTheme.typography.h5
             )
             Spacer(modifier = Modifier.height(8.dp))
-            Text(text = "Notes: ${vocabulary.notes}")
+            if (vocabulary.notes?.isNotEmpty() == true) {
+                Text(text = "Notes: ${vocabulary.notes}")
+            }
             Spacer(modifier = Modifier.height(4.dp))
             it.words?.forEach {
                 Text(text = "- ${it.translation}: ${it.word}")
