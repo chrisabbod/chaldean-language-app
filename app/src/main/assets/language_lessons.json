@@ -890,14 +890,54 @@
               "verb_tense": "PRESENT",
               "notes": null,
               "conjugations": [
-                {"pronoun": "āna", "conjugation": "k-ydhin", "translation": "I know", "notes": null},
-                {"pronoun": "āyit", "conjugation": "k-ydhit", "translation": "You (m) know", "notes": null},
-                {"pronoun": "āyat", "conjugation": "k-yedhat", "translation": "You (f) know", "notes": null},
-                {"pronoun": "āwo", "conjugation": "k-yadhe", "translation": "He knows", "notes": null},
-                {"pronoun": "āya", "conjugation": "k-yatha (yen) keydha", "translation": "She knows", "notes": null},
-                {"pronoun": "akhny", "conjugation": "k-aydhukh (yen) k-yadhukh", "translation": "We know", "notes": null},
-                {"pronoun": "akhtun", "conjugation": "k-aydhutun (yen) k-yadhutun", "translation": "Ye/Y’all know", "notes": null},
-                {"pronoun": "anay", "conjugation": "k-yadhy (yen) keydhy", "translation": "They know", "notes": null}
+                {
+                  "pronoun": "āna",
+                  "conjugation": "k-ydhin",
+                  "translation": "I know",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "k-ydhit",
+                  "translation": "You (m) know",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "k-yedhat",
+                  "translation": "You (f) know",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "k-yadhe",
+                  "translation": "He knows",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āya",
+                  "conjugation": "k-yatha (yen) keydha",
+                  "translation": "She knows",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "k-aydhukh (yen) k-yadhukh",
+                  "translation": "We know",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhtun",
+                  "conjugation": "k-aydhutun (yen) k-yadhutun",
+                  "translation": "Ye/Y’all know",
+                  "notes": null
+                },
+                {
+                  "pronoun": "anay",
+                  "conjugation": "k-yadhy (yen) keydhy",
+                  "translation": "They know",
+                  "notes": null
+                }
               ]
             },
             {
@@ -906,17 +946,295 @@
               "verb_tense": "PRETERITE",
               "notes": null,
               "conjugations": [
-                {"pronoun": "āna", "conjugation": "y-dhe-lee", "translation": "I knew", "notes": null},
-                {"pronoun": "āyit", "conjugation": "y-dhe-lookh", "translation": "You (m) knew", "notes": null},
-                {"pronoun": "āyat", "conjugation": "y-dhe-lakh", "translation": "You (f) knew", "notes": null},
-                {"pronoun": "āwo", "conjugation": "y-dhe-lih", "translation": "He knew", "notes": null},
-                {"pronoun": "āya", "conjugation": "y-dhe-lah", "translation": "She knew", "notes": null},
-                {"pronoun": "akhny", "conjugation": "y-dhe-lan", "translation": "We knew", "notes": null},
-                {"pronoun": "akhtun", "conjugation": "y-dhe-lokhun", "translation": "Ye/Y’all knew", "notes": null},
-                {"pronoun": "anay", "conjugation": "y-dhe-lay", "translation": "They knew", "notes": null}
+                {
+                  "pronoun": "āna",
+                  "conjugation": "y-dhe-lee",
+                  "translation": "I knew",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "y-dhe-lookh",
+                  "translation": "You (m) knew",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "y-dhe-lakh",
+                  "translation": "You (f) knew",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "y-dhe-lih",
+                  "translation": "He knew",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āya",
+                  "conjugation": "y-dhe-lah",
+                  "translation": "She knew",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "y-dhe-lan",
+                  "translation": "We knew",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhtun",
+                  "conjugation": "y-dhe-lokhun",
+                  "translation": "Ye/Y’all knew",
+                  "notes": null
+                },
+                {
+                  "pronoun": "anay",
+                  "conjugation": "y-dhe-lay",
+                  "translation": "They knew",
+                  "notes": null
+                }
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "lesson_number": 8,
+      "lesson_title": "To Have",
+      "lesson_sections": 3,
+      "review": null,
+      "preliminary_notes": "“To Have” ܐܝܼܬܼ (Past, Present Conjugations + Future)",
+      "lesson_contents": [
+        {
+          "verbs": [
+            {
+              "verb": "TO HAVE",
+              "verb_root": "EETH",
+              "verb_tense": "PRETERITE",
+              "notes": "Ex: I had one coconut - āna ith-wā-lee kha joez-narghila",
+              "conjugations": [
+                {
+                  "pronoun": "āna",
+                  "conjugation": "ith-wā-lee",
+                  "translation": "I had",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "ith-wā-lookh",
+                  "translation": "You (m) had",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "ith-wā-lakh",
+                  "translation": "You (f) had",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "ith-wā-lih",
+                  "translation": "He had",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āya",
+                  "conjugation": "ith-wā-lah",
+                  "translation": "She had",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "ith-wā-lan",
+                  "translation": "We had",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhtun",
+                  "conjugation": "ith-wā-lokhoon",
+                  "translation": "Ye/Y’all had",
+                  "notes": null
+                },
+                {
+                  "pronoun": "anay",
+                  "conjugation": "ith-wā-laey",
+                  "translation": "They had",
+                  "notes": null
+                }
+              ]
+            },
+            {
+              "verb": "TO HAVE",
+              "verb_root": "EETH",
+              "verb_tense": "PRESENT",
+              "notes": "Ex:\n1. We have a huge dog in our back yard - ākhny it-tan kalba rāba d' hadi-qit-tan\n\n2. You have two brothers - āyit it-tookh trae akhwatha (yen akhonwatha)\n\n3. He has an appointment with his doctor - āwo it-tih tfaqta im-id daktor dy-yae\n\n4. She has a nice body - āya it-tah khosh gooshma\n\nTo form the negative, simply place the L sound in front of the conjugated verb, as seen above.\n\nLah = No\n\nExample:\n\nShe has: āy(a) it-tah\nShe does not have: āy(a) + La + it-tah forms a contraction (just as in English with She has and She hasn't) and becomes āy(a) Lit-tah.",
+              "conjugations": [
+                {
+                  "pronoun": "āna",
+                  "conjugation": "it-tee",
+                  "translation": "I have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āna",
+                  "conjugation": "Lit-tee",
+                  "translation": "I do not have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "it-tookh",
+                  "translation": "You (m) have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "Lit-tookh",
+                  "translation": "You (m) do not have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "it-takh",
+                  "translation": "You (f) have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "it-tih",
+                  "translation": "He has",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āya",
+                  "conjugation": "it-tah / Lit-tah",
+                  "translation": "She has / She does not have",
+                  "notes": "She has: āy(a) it-tah\nShe does not have: āy(a) + La + it-tah forms a contraction (just as in English with She has and She hasn't) and becomes āy(a) Lit-tah."
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "it-tan",
+                  "translation": "We have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhtun",
+                  "conjugation": "it-tokhoon",
+                  "translation": "Ye/Y’all have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "anay",
+                  "conjugation": "it-tay",
+                  "translation": "They have",
+                  "notes": null
+                }
+              ]
+            },
+            {
+              "verb": "TO HAVE",
+              "verb_root": "EETH",
+              "verb_tense": "FUTURE",
+              "notes": null,
+              "conjugations": [
+                {
+                  "pronoun": "āna",
+                  "conjugation": "bid-hāwe-lee",
+                  "translation": "I will have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyit",
+                  "conjugation": "b-hāwe-lookh",
+                  "translation": "You (m) will have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "bid-hāwe-lākh",
+                  "translation": "You (f) will have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "b-hāwe-lih",
+                  "translation": "He will have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āya",
+                  "conjugation": "bid-hāwe-lāh",
+                  "translation": "She will have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhny",
+                  "conjugation": "b-hāwe-lan",
+                  "translation": "We will have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhtun",
+                  "conjugation": "bid-hāwe-lokhoon",
+                  "translation": "Ye/Y'all will have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "anay",
+                  "conjugation": "b-hāwe-lāy",
+                  "translation": "They will have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āyat",
+                  "conjugation": "it-takh",
+                  "translation": "You (f) have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āwo",
+                  "conjugation": "it-tih",
+                  "translation": "He has",
+                  "notes": null
+                },
+                {
+                  "pronoun": "āy(a)",
+                  "conjugation": "it-tah",
+                  "translation": "She has",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akh-nee",
+                  "conjugation": "it-tan",
+                  "translation": "We have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "akhto(n)",
+                  "conjugation": "it-tokhoon",
+                  "translation": "Ye/Y'all have",
+                  "notes": null
+                },
+                {
+                  "pronoun": "an-ee",
+                  "conjugation": "it-tay",
+                  "translation": "They have",
+                  "notes": null
+                }
+              ]
+            }
+          ],
+          "vocabulary": {
+            "notes": "RANDOM VOCABULARY WORD OF THIS LESSON",
+            "words": [
+              {
+                "word": "shorigmih",
+                "translation": "Pickled Turnips"
+              }
+            ]
+          }
         }
       ]
     }
