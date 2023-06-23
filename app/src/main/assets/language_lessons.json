@@ -1325,6 +1325,187 @@
           }
         }
       ]
+    },
+    {
+      "lesson_number": 10,
+      "lesson_title": "To Go, To Make/Do, To arise/get up/stand up/wake up",
+      "lesson_sections": 3,
+      "review": null,
+      "preliminary_notes": "Taken from Wikipedia: In grammar, the subjunctive mood is a verb mood that exists in many languages. It typically expresses wishes, commands (in subordinate clauses), emotion, possibility, judgment, necessity, and statements that are contrary to fact at present. For more details, see The Subjunctive Mood (Wikipedia)",
+      "lesson_contents": [
+        {
+          "verbs": [
+            {
+              "verb": "To Go",
+              "verb_root": "izzal (ܐܸܙܲܠ)",
+              "verb_tense": "Present Subjunctive",
+              "notes": null,
+              "conjugations": [
+                {
+                  "pronoun": "",
+                  "conjugation": "shud zāl-ee",
+                  "translation": "I might go / I should go",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "shud zāl-ookh",
+                  "translation": "You (m) may go",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "shud zāl-akh",
+                  "translation": "You (f) should go",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "shud zāl-eh",
+                  "translation": "He might go",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "shud zāl-ah",
+                  "translation": "She should go",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "shud zāl-an",
+                  "translation": "We may go",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "shud zalo-tun",
+                  "translation": "Ye/Y'all might go",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "shud zal-ay",
+                  "translation": "They should go",
+                  "notes": null
+                }
+              ]
+            },
+            {
+              "verb": "To Make/Do",
+              "verb_root": "‘wadh (ܥܘܲܕܼ)",
+              "verb_tense": "Future",
+              "notes": null,
+              "conjugations": [
+                {
+                  "pronoun": "",
+                  "conjugation": "zeelin āw-dhin (yen) āna bid āw-dhin",
+                  "translation": "I will make / I will do",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zeelit āw-dhit (yen) āyit bid āw-dhit",
+                  "translation": "You (m) will make",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zee-lat āw-dhat (yen) āyat bid āw-dhat",
+                  "translation": "You (f) will do",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zeelih āw-idh (yen) āwa bid āwidh",
+                  "translation": "He will make",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zee-lah āw-dhah (yen) āya bid aā-dhah",
+                  "translation": "She will do",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zee-wookh āw-dhukh (yen) akhny bid aā-dhukh",
+                  "translation": "We will make",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zee-wotoon āw-dhutun (yen) Akhtun bid āw-dhutun",
+                  "translation": "Ye/Y'all will do",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "zee-lay āw-dhy (yen) anay bid āw-dhy",
+                  "translation": "They will make/do",
+                  "notes": null
+                }
+              ]
+            },
+            {
+              "verb": "To Get Up/ To Stand Up/ To Arise",
+              "verb_root": "qam (ܩܲܡ)",
+              "verb_tense": "Past",
+              "notes": "Note: If you add “min shintha” (or, shortened, “m-shintha”) as a suffix on this conjugation, the verb becomes “to wake up”, or “to get up/arise from sleep”. \n\nExamples: \n- I woke up - qim-lee min shintha\n- She arose from sleep - qim-lah m-shintha",
+              "conjugations": [
+                {
+                  "pronoun": "",
+                  "conjugation": "qim-lee",
+                  "translation": "I got up / I stood up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "qim-lookh",
+                  "translation": "You (m) arose",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "qim-lakh",
+                  "translation": "You (f) got up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "qim-lih",
+                  "translation": "He stood up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "qim-lah",
+                  "translation": "She arose",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "qim-lan",
+                  "translation": "We got up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "qim-lokhun",
+                  "translation": "Ye/Y'all stood up",
+                  "notes": null
+                },
+                {
+                  "pronoun": "",
+                  "conjugation": "qim-lay",
+                  "translation": "They arose",
+                  "notes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
