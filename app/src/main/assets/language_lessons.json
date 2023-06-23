@@ -515,7 +515,7 @@
     },
     {
       "lesson_number": 4,
-      "lesson_title": "Surath Lesson 4: To go (progressive), to make/to do conjugations",
+      "lesson_title": "To go (progressive), to make/to do conjugations",
       "lesson_sections": 2,
       "review": "",
       "preliminary_notes": "As is the case in Spanish and in English, when using the progressive tense, we combine the present form of the verb ‘to be’ with the progressive of the verb that is taking place in real time.\n\nNote: A shortened form of the conjugated verb ‘to be’ can be attached to the end of the verb ‘to go’, which results in two different ways to say the progressive ‘to go’.",
@@ -634,8 +634,8 @@
     },
     {
       "lesson_number": 5,
-      "lesson_title": "Lesson 5: Questions, numbers 5-10, To do (present)",
-      "lesson_sections": 4,
+      "lesson_title": "Questions, To do (present)",
+      "lesson_sections": 3,
       "review": "OK, so we are learning the building blocks for a language. The following verbs have been covered in the last four lessons:\n\nTO BE (ܗܘܐ)\nPast, Present, and Future\n\nTO GO (ܐܸܙܲܠ)\nPast, Present, Future, and Progressive\n\nTO MAKE/DO (ܥܘܲܕܼ)\nProgressive\n\nWe have also learned the following: \n• Numbers (1-5) \n• School Vocabulary \n• Negatives and Questions\n\nLet’s begin Lesson 5 with Questions, which are important when learning any language.\n\nIn English, the common phrase is “Who, what, where, when, why, and how? We’ll begin with these, plus a couple more:",
       "preliminary_notes": null,
       "lesson_contents": [
@@ -747,6 +747,72 @@
               "notes": null
             }
           ],
+          "numbers": {
+            "notes": "NUMBERS - PART TWO\n\nHopefully you recall numbers 0-5 in both masculine and feminine forms. Now we are going to learn 5-10.\n\n** Remember: It is not the speaker, but the OBJECT, that determines whether masculine and feminine numerals are used.\n\n** Note: ’a is used to denote a sound which is not used in the English language. The sound comes from deep within the throat. An example of two words that use the ‘a are: ‘at-oo (Last Name), or ‘amba.",
+            "number": [
+              {
+                "gender": "Feminine",
+                "numeral": "6",
+                "translation": "ishit"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "7",
+                "translation": "eash-waa"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "8",
+                "translation": "tmanae"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "9",
+                "translation": "tesha"
+              },
+              {
+                "gender": "Feminine",
+                "numeral": "10",
+                "translation": "esar"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "6",
+                "translation": "ishta"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "7",
+                "translation": "shoa’a"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "8",
+                "translation": "tmanya"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "9",
+                "translation": "tish’a"
+              },
+              {
+                "gender": "Masculine",
+                "numeral": "10",
+                "translation": "esra"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lesson_number": 6,
+      "lesson_title": "Numbers 5 - 10",
+      "lesson_sections": 2,
+      "review": null,
+      "preliminary_notes": null,
+      "lesson_contents": [
+        {
           "numbers": {
             "notes": "NUMBERS - PART TWO\n\nHopefully you recall numbers 0-5 in both masculine and feminine forms. Now we are going to learn 5-10.\n\n** Remember: It is not the speaker, but the OBJECT, that determines whether masculine and feminine numerals are used.\n\n** Note: ’a is used to denote a sound which is not used in the English language. The sound comes from deep within the throat. An example of two words that use the ‘a are: ‘at-oo (Last Name), or ‘amba.",
             "number": [
