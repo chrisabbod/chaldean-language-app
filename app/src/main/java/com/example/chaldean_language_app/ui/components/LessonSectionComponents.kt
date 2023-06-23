@@ -39,7 +39,7 @@ fun ReviewSection(review: String) {
         Spacer(modifier = Modifier.height(8.dp))
         Text(text = review)
     }
-    Divider(color = Color.Gray, thickness = 0.5.dp)
+    Divider(color = Color.Gray, thickness = 1.0.dp)
 }
 
 @Composable
@@ -54,7 +54,7 @@ fun PreliminaryNotesSection(notes: String) {
         Spacer(modifier = Modifier.height(8.dp))
         Text(text = notes)
     }
-    Divider(color = Color.Gray, thickness = 0.5.dp)
+    Divider(color = Color.Gray, thickness = 1.0.dp)
 }
 
 @Composable
@@ -68,7 +68,7 @@ fun NotesSection(notes: String) {
         )
         Text(text = notes)
     }
-    Divider(color = Color.Gray, thickness = 0.5.dp)
+    Divider(color = Color.Gray, thickness = 1.0.dp)
 }
 
 @Composable
@@ -85,17 +85,19 @@ fun PronounsSection(pronounSection: Pronouns?) {
             Text(text = "Singular Pronouns", style = MaterialTheme.typography.h6)
             Spacer(modifier = Modifier.height(4.dp))
             it.singular?.forEach { pronoun ->
-                Text(text = "${pronoun.translation} - ${pronoun.pronoun}")
+                Text(text = "- ${pronoun.translation}: ${pronoun.pronoun}")
+                Spacer(modifier = Modifier.height(8.dp))
             }
             Spacer(modifier = Modifier.height(16.dp))
             Text(text = "Plural Pronouns", style = MaterialTheme.typography.h6)
             Spacer(modifier = Modifier.height(4.dp))
             it.plural?.forEach { pronoun ->
-                Text(text = "${pronoun.translation} - ${pronoun.pronoun}")
+                Text(text = "- ${pronoun.translation}: ${pronoun.pronoun}")
+                Spacer(modifier = Modifier.height(8.dp))
             }
         }
     }
-    Divider(color = Color.Gray, thickness = 0.5.dp)
+    Divider(color = Color.Gray, thickness = 1.0.dp)
 }
 
 @Composable
@@ -119,7 +121,8 @@ fun VerbsSection(verbs: List<Verb>?) {
                     )
                     Spacer(modifier = Modifier.height(4.dp))
                     verb.conjugations.forEach { conjugation ->
-                        Text(text = "${conjugation.translation}: ${conjugation.pronoun} ${conjugation.conjugation}")
+                        Text(text = "- ${conjugation.translation}: ${conjugation.pronoun} ${conjugation.conjugation}")
+                        Spacer(modifier = Modifier.height(8.dp))
                     }
                     Spacer(modifier = Modifier.height(16.dp))
                     if (verb.notes?.isNotEmpty() == true) {
@@ -130,7 +133,7 @@ fun VerbsSection(verbs: List<Verb>?) {
             }
         }
     }
-    Divider(color = Color.Gray, thickness = 0.5.dp)
+    Divider(color = Color.Gray, thickness = 1.0.dp)
 }
 
 
@@ -149,11 +152,12 @@ fun VocabularySection(vocabulary: Vocabulary?) {
             Text(text = "Notes: ${vocabulary.notes}")
             Spacer(modifier = Modifier.height(4.dp))
             it.words?.forEach {
-                Text(text = "${it.translation}: ${it.word}")
+                Text(text = "- ${it.translation}: ${it.word}")
+                Spacer(modifier = Modifier.height(8.dp))
             }
         }
     }
-    Divider(color = Color.Gray, thickness = 0.5.dp)
+    Divider(color = Color.Gray, thickness = 1.0.dp)
 }
 
 @Composable
@@ -198,7 +202,7 @@ fun NumbersSection(numbers: Numbers) {
             }
         }
     }
-    Divider(color = Color.Gray, thickness = 0.5.dp)
+    Divider(color = Color.Gray, thickness = 1.0.dp)
 }
 
 @Composable
@@ -226,7 +230,7 @@ fun NegativesSection(negatives: Negatives?) {
             }
         }
     }
-    Divider(color = Color.Gray, thickness = 0.5.dp)
+    Divider(color = Color.Gray, thickness = 1.0.dp)
 }
 
 @Composable
@@ -247,12 +251,15 @@ fun QuestionsSection(questions: List<Question>?) {
             )
             Spacer(modifier = Modifier.height(4.dp))
             it.forEach {
-                it
-                Text(text = "${it.sentence}: ${it.translation}")
+                Text(text = "- ${it.sentence}: ${it.translation}")
+                if (it.notes?.isNotEmpty() == true) {
+                    Text(text = "Note: ${it.notes}")
+                }
+                Spacer(modifier = Modifier.height(8.dp))
             }
         }
     }
-    Divider(color = Color.Gray, thickness = 0.5.dp)
+    Divider(color = Color.Gray, thickness = 1.0.dp)
 }
 
 @Preview
