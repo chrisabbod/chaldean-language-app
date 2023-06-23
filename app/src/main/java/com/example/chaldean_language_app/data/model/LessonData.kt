@@ -16,7 +16,7 @@ data class Lesson(
 data class LessonContent(
     val pronouns: Pronouns?,
     val verbs: List<Verb>?,
-    val vocabulary: List<Vocabulary>?,
+    val vocabulary: Vocabulary?,
     val numbers: Numbers?,
     val negatives: Negatives?,
     val questions: List<Question>?,
@@ -50,9 +50,13 @@ data class Conjugation(
 )
 
 data class Vocabulary(
+    val notes: String?,
+    val words: List<Words>?
+)
+
+data class Words(
     val word: String,
     val translation: String,
-    val notes: String?
 )
 
 data class Numbers(

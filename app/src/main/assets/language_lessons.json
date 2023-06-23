@@ -152,48 +152,43 @@
               ]
             }
           ],
-          "vocabulary": [
-            {
-              "word": "Talmeedha",
-              "translation": "Student",
-              "notes": "The dh is pronounced with the same noise as the 'th' in the word 'the'"
-            },
-            {
-              "word": "Malpāna",
-              "translation": "Teacher",
-              "notes": null
-            },
-            {
-              "word": "Madrasa",
-              "translation": "School",
-              "notes": null
-            },
-            {
-              "word": "Dariss",
-              "translation": "Lesson",
-              "notes": null
-            },
-            {
-              "word": "kthāwa",
-              "translation": "Book",
-              "notes": null
-            },
-            {
-              "word": "qalāma",
-              "translation": "Pencil",
-              "notes": null
-            },
-            {
-              "word": "koorsey",
-              "translation": "Chair",
-              "notes": null
-            },
-            {
-              "word": "warāqa",
-              "translation": "Paper",
-              "notes": null
-            }
-          ]
+          "vocabulary": {
+            "notes": "The dh is pronounced with the same noise as the 'th' in the word 'the'",
+            "words": [
+              {
+                "word": "Talmeedha",
+                "translation": "Student"
+              },
+              {
+                "word": "Malpāna",
+                "translation": "Teacher"
+              },
+              {
+                "word": "Madrasa",
+                "translation": "School"
+              },
+              {
+                "word": "Dariss",
+                "translation": "Lesson"
+              },
+              {
+                "word": "kthāwa",
+                "translation": "Book"
+              },
+              {
+                "word": "qalāma",
+                "translation": "Pencil"
+              },
+              {
+                "word": "koorsey",
+                "translation": "Chair"
+              },
+              {
+                "word": "warāqa",
+                "translation": "Paper"
+              }
+            ]
+          }
         }
       ]
     },

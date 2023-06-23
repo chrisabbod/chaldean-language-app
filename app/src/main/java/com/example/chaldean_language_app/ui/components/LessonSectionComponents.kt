@@ -135,7 +135,7 @@ fun VerbsSection(verbs: List<Verb>?) {
 
 
 @Composable
-fun VocabularySection(vocabulary: List<Vocabulary>?) {
+fun VocabularySection(vocabulary: Vocabulary?) {
     vocabulary?.let {
         Column(
             modifier = Modifier.padding(16.dp),
@@ -146,10 +146,10 @@ fun VocabularySection(vocabulary: List<Vocabulary>?) {
                 style = MaterialTheme.typography.h5
             )
             Spacer(modifier = Modifier.height(8.dp))
-            Text(text = "Notes: ${vocabulary[0].notes}")
+            Text(text = "Notes: ${vocabulary.notes}")
             Spacer(modifier = Modifier.height(4.dp))
-            it.forEach { word ->
-                Text(text = "${word.translation}: ${word.word}")
+            it.words?.forEach {
+                Text(text = "${it.translation}: ${it.word}")
             }
         }
     }
