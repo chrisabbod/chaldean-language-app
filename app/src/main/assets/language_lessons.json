@@ -51,6 +51,7 @@
               "verb": "TO BE",
               "verb_root": "hwa",
               "verb_tense": "PRESENT",
+              "notes": null,
               "conjugations": [
                 {
                   "pronoun": "āna",
@@ -103,6 +104,7 @@
               "verb": "TO BE",
               "verb_root": "hwa",
               "verb_tense": "PAST",
+              "notes": null,
               "conjugations": [
                 {
                   "pronoun": "āna",
@@ -205,6 +207,7 @@
               "verb": "TO BE",
               "verb_root": "hwa",
               "verb_tense": "FUTURE",
+              "notes": null,
               "conjugations": [
                 {
                   "pronoun": "āna",
@@ -257,6 +260,7 @@
               "verb": "TO GO",
               "verb_root": "izzal",
               "verb_tense": "PRESENT",
+              "notes": null,
               "conjugations": [
                 {
                   "pronoun": "āna",
@@ -868,6 +872,51 @@
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      "lesson_number": 7,
+      "lesson_title": "To Know",
+      "lesson_sections": 2,
+      "review": null,
+      "preliminary_notes": "To know ܝܕܥ (present, past)",
+      "lesson_contents": [
+        {
+          "verbs": [
+            {
+              "verb": "TO KNOW",
+              "verb_root": "yda’",
+              "verb_tense": "PRESENT",
+              "notes": null,
+              "conjugations": [
+                {"pronoun": "āna", "conjugation": "k-ydhin", "translation": "I know", "notes": null},
+                {"pronoun": "āyit", "conjugation": "k-ydhit", "translation": "You (m) know", "notes": null},
+                {"pronoun": "āyat", "conjugation": "k-yedhat", "translation": "You (f) know", "notes": null},
+                {"pronoun": "āwo", "conjugation": "k-yadhe", "translation": "He knows", "notes": null},
+                {"pronoun": "āya", "conjugation": "k-yatha (yen) keydha", "translation": "She knows", "notes": null},
+                {"pronoun": "akhny", "conjugation": "k-aydhukh (yen) k-yadhukh", "translation": "We know", "notes": null},
+                {"pronoun": "akhtun", "conjugation": "k-aydhutun (yen) k-yadhutun", "translation": "Ye/Y’all know", "notes": null},
+                {"pronoun": "anay", "conjugation": "k-yadhy (yen) keydhy", "translation": "They know", "notes": null}
+              ]
+            },
+            {
+              "verb": "TO KNOW",
+              "verb_root": "yda’",
+              "verb_tense": "PRETERITE",
+              "notes": null,
+              "conjugations": [
+                {"pronoun": "āna", "conjugation": "y-dhe-lee", "translation": "I knew", "notes": null},
+                {"pronoun": "āyit", "conjugation": "y-dhe-lookh", "translation": "You (m) knew", "notes": null},
+                {"pronoun": "āyat", "conjugation": "y-dhe-lakh", "translation": "You (f) knew", "notes": null},
+                {"pronoun": "āwo", "conjugation": "y-dhe-lih", "translation": "He knew", "notes": null},
+                {"pronoun": "āya", "conjugation": "y-dhe-lah", "translation": "She knew", "notes": null},
+                {"pronoun": "akhny", "conjugation": "y-dhe-lan", "translation": "We knew", "notes": null},
+                {"pronoun": "akhtun", "conjugation": "y-dhe-lokhun", "translation": "Ye/Y’all knew", "notes": null},
+                {"pronoun": "anay", "conjugation": "y-dhe-lay", "translation": "They knew", "notes": null}
+              ]
+            }
+          ]
         }
       ]
     }
